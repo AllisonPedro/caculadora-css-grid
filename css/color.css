@@ -1,0 +1,66 @@
+:root{
+    --color-laranja: rgb(243, 173, 43);
+    --color-vermelho: rgb(175, 40, 43);
+    --color-purpura:rgb(109, 29, 109);
+}
+
+.bg-laranja{
+    background-color: var(--color-laranja);
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-vermelho{
+    background-color: var(--color-vermelho);
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-purpura{
+    background-color: var(--color-purpura);
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-gradiente{
+    background: linear-gradient(var(--color-laranja), var(--color-vermelho), var(--color-purpura));
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-laranja{
+    background-color: var(--color-laranja);
+    transition: all 0.25s ease-in-out;
+}
+
+.btn-vermelho{
+    background-color: var(--color-vermelho);
+    transition: all 0.25s ease-in-out;
+}
+
+.btn-purpura{
+    background-color: var(--color-purpura);
+    transition: all 0.25s ease-in-out;
+}
+
+.btn-gradiente{
+    background: linear-gradient(var(--color-laranja), var(--color-vermelho), var(--color-purpura));
+    transition: all 0.25s ease-in-out;
+}
+
+
+.button-select{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-align: center;
+}

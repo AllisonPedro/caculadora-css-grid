@@ -7,13 +7,25 @@
      <title>Document</title>
     
      <!-- Links Css -->
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/color.css">
 
  </head>
  <body>
         
-    <div class="container">
+    <div class="bg-gradiente container">
+
+         <!-- color button-->
+         <button class="button-select btn-laranja" id="btn-laranja">Laranja</button>
+         <button class="button-select btn-vermelho" id="btn-vermelho">Vermelho</button>
+         <button class="button-select btn-purpura" id="btn-purpura">Purpura</button>
+         <button class="button-select btn-gradiente" id="btn-gradiente">Gradiente</button>
+
+
         <section class="grid grid-template-areas">
+
+           
+
             <input disabled class="display">
 
             <button class="item apagar button-operacao">AC</button>
@@ -36,7 +48,7 @@
             <button class="item tres button-numeros">3</button>
             <button class="item mais button-operacao-direita">+</button>
             
-            <button class="item zero button-numeros">0</button>
+            <button class="item zeros button-numeros">0</button>
             <button class="item ponto button-numeros">,</button>
             <button class="item equacao button-operacao-direita">=</button>
             
@@ -46,6 +58,6 @@
         </section>
     </div>
     
-
+<script src="javascript/color.js"></script>
  </body>
  </html>

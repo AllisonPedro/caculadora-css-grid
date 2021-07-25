@@ -1,0 +1,90 @@
+:root{
+    --color-laranja: #F1A23D;
+    --button-color-operadores: #F1A23D;
+    --color-button-numeros: #75757D;
+    --color-button-operacao: #5A5663
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+
+
+.container{  
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.grid{
+    display: grid;
+    height: 480px;
+    width: 320px;
+}
+
+.item{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0,5px solid black;
+
+
+}
+
+.button-operacao-direita{
+    background: var(--button-color-operadores);
+}
+
+.button-numeros{
+    background-color: var(--color-button-numeros);
+
+}
+
+.button-operacao{
+    background-color: var(--color-button-operacao);
+}
+
+/** Botões Grid**/
+.display{grid-area: display;}
+.apagar{grid-area: apagar;} 
+.mais-menos{grid-area: mais-menos;} 
+.porcentagem{grid-area: porcentagem;} 
+.divisao{grid-area: divisao;} 
+
+.sete{grid-area: sete;} 
+.oito{grid-area: oito;} 
+.nove{grid-area: nove;} 
+.multiplicacao{grid-area: multiplicacao;} 
+
+.quatro{grid-area: quatro;} 
+.cinco{grid-area: cinco;} 
+.seis{grid-area: seis;} 
+.menos{grid-area: menos;} 
+
+.um{grid-area: um;} 
+.dois{grid-area: dois;} 
+.tres{grid-area: tres;} 
+.mais{grid-area: mais;} 
+            
+.zeros{grid-area: zeros;} 
+.ponto{grid-area: ponto;} 
+.equacao{grid-area: equacao;} 
+
+section{
+    grid-template-areas: 
+    "display display display display"
+    "apagar mais-menos porcentagem divisao"
+    "sete oito nove multiplicacao"
+    "quatro cinco seis menos"
+    "um dois tres mais"
+    "zeros zeros ponto equacao"
+
+    
+    ;
+}
