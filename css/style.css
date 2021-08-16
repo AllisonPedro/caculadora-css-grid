@@ -75,6 +75,10 @@
     border: none;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    font-size: 30px;
+    color: white;
+    padding-right: 15px;
+    text-align: right;
 }
 .apagar{grid-area: apagar;} 
 .mais-menos{grid-area: mais-menos;} 
